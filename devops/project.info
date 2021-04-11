@@ -1,0 +1,8 @@
+#Version 0.1#
+Logical implementation steps for environment configuration:
+1. Install/update dotnet
+2. Install/update node and npm 
+3. Install git
+4. Checkout project
+5. download nuget packages and build backend
+6. npm install and build UI

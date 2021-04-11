@@ -1,6 +1,4 @@
-using System;
-
-namespace Mateuszr.H3Dex.WebAPI
+namespace H3Dex.WebApi
 {
     public class WeatherForecast
     {
@@ -10,6 +8,6 @@ namespace Mateuszr.H3Dex.WebAPI
 
         public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
 
-        public string Summary { get; set; }
+        public string? Summary { get; set; }
     }
 }
